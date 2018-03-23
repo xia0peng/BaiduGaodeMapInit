@@ -7,7 +7,7 @@
     <!--appKey标签:表示注册Key)-->
     <!--factoryName标签:表示地图平台封装具体工厂类)-->
     <!--isOpen标签:表示是否开启当前这个地图(开关))-->
-    <platform id="1" appKey="haZaPRO1c8zXbGUBw0jcMvIb9PjGScPN" factoryName="BaiduMapFactory" isOpen="NO"/>
+    <platform id="1" appKey="haZaPRO1c8zXbGUBw0jcMvIb9PjGScPN" factoryName="BaiduMapFactory" isOpen="YES"/>
     
     <platform id="2" appKey="481b343252a4f61ff7a5e206b952ce99" factoryName="GaodeMapFactory" isOpen="NO"/>
     
