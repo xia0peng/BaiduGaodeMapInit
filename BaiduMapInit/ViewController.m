@@ -70,17 +70,17 @@
     
     
      //第一个方案：通过宏定义（枚举）实现
-    MapEngine *mapEngine = [[MapEngine alloc] init];
-    id<IMapFactory> factory = [mapEngine getFactory:MapTypeBaiduMap];
-    id<IMapView> mapView = [factory getMapView:self.view.frame];
-    [self.view addSubview:[mapView getView]];
+//    MapEngine *mapEngine = [[MapEngine alloc] init];
+//    id<IMapFactory> factory = [mapEngine getFactory:MapTypeBaiduMap];
+//    id<IMapView> mapView = [factory getMapView:self.view.frame];
+//    [self.view addSubview:[mapView getView]];
     
     
     //第二个方案：配置文件（xml配置、josn配置文件等。。。）
-//    MapEngine *mapEngine = [[MapEngine alloc] init];
-//    id<IMapFactory> factory = [mapEngine getFactory];
-//    id<IMapView> mapView = [factory getMapView:self.view.frame];
-//    [self.view addSubview:[mapView getView]];
+    MapEngine *mapEngine = [[MapEngine alloc] init];
+    id<IMapFactory> factory = [mapEngine getFactory];
+    id<IMapView> mapView = [factory getMapView:self.view.frame];
+    [self.view addSubview:[mapView getView]];
 
 }
 
